@@ -23,8 +23,8 @@
           "images/portfolio/jetlovers/4.png",
           "images/portfolio/jetlovers/5.png"
         ],
-        "appStore": "",
-        "googlePlay": "",
+        "appStore": "https://apps.apple.com/us/app/jetlovers-flight-stats/id1508718169",
+        "googlePlay": "https://play.google.com/store/apps/details?id=com.jetlovers.test",
         "technologies": [
           {
             "class": "devicon-react-plain",

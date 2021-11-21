@@ -4,6 +4,11 @@ import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
 import "react-awesome-slider/dist/custom-animations/scale-out-animation.css";
+
+function StoreButton({type, url}) {
+  return <div class="col-md-6"><a href={url}><img class="store-button" src={`images/store/${type}.png`} /></a></div>
+}
+
 class ProjectDetailsModal extends Component {
   render() {
     if (this.props.data) {
@@ -12,6 +17,8 @@ class ProjectDetailsModal extends Component {
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
+      var appStore = this.props.data.appStore;
+      var googlePlay = this.props.data.googlePlay;
       if (this.props.data.technologies) {
         var tech = technologies.map((icons, i) => {
           return (
@@ -94,6 +101,10 @@ class ProjectDetailsModal extends Component {
               ) : null}
             </h3>
             <p className="modal-description font-trebuchet">{description}</p>
+            <div class="col-md-12 text-center mx-auto row">
+            {appStore ? <StoreButton type="appStore" url={appStore} /> : null}
+            {googlePlay ? <StoreButton type="googlePlay" url={googlePlay} /> : null}
+            </div>
             <div className="col-md-12 text-center">
               <ul className="list-inline mx-auto font-trebuchet">{tech}</ul>
             </div>
