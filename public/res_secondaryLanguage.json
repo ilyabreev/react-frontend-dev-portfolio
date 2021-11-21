@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
+      "description_header": "Привет",
+      "description": "👋 Меня зовут Илья. Занимаюсь бэкенд-разработкой с использованием .net core и Kubernetes. Увлекаюсь мобильной разработкой на React Native. Интересуюсь всем, что связано с разработкой и сопровождением программных продуктов. За более чем 10 лет профессионального опыта многое изучил и попробовал. Рад нашему знакомству!",
       "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
+        "about": "Обо мне",
+        "projects": "Проекты",
+        "skills": "Скиллы",
+        "experience": "Опыт"
       }
     },
     "projects": [
@@ -81,35 +81,49 @@
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
+        "company": "ООО \"Синтек\"",
+        "title": "Старший разработчик",
+        "years": "02.2020 - сейчас",
         "mainTech": [
-          "Angular 8/9/10"
+          "ASP.NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
+          "C#",
+          ".NET Core",
           "EF Core",
-          "Angular Material"
+          "JavaScript",
+          "PostgreSQL",
+          "React",
+          "React-native"          
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
+        "company": "ООО \"Синтек\"",
+        "title": "Разработчик",
+        "years": "12.2012 - 02.2020",
         "mainTech": [
-          "Angular 7/8"
+          "ASP.NET Web Forms / ASP.NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
+          "C#",
+          ".NET Core",
+          "EF Core",
           "JavaScript",
-          "DHTMLX Gantt"
+          "SQL Server"          
+        ]
+      },
+      {
+        "company": "ООО \"Синтек\"",
+        "title": "Младший программист",
+        "years": "09.2010 - 12.2012",
+        "mainTech": [
+          "ASP.NET Web Forms"
+        ],
+        "technologies": [
+          "C#",
+          ".NET Framework",
+          "JavaScript",
+          "SQL Server"
         ]
       }
     ]

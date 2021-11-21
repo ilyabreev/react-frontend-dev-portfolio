@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Ilya. I am doing backend development using .net core and Kubernetes. My hobby is mobile development with React Native. I am interested in everything related to the development and maintenance of software products. For more than 10 years of professional experience, I have learned and tried a lot. Nice to meet you!",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,107 +11,75 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "JetLovers Mobile App",
+        "startDate": "2021",
+        "description": "JetLovers app helps you to track flight history via several ways. Besides adding flights manually, you can connect your social profiles such as Swarm/Foursquare and continue making check-ins at the airports via that service. JetLovers then pulls all those check-ins and if they fall under certain criteria, flights will be created automatically, which is a unique feature. Historical imports are also supported, so if you are active user of Swarm you can create an account and see your flight map or even 3D globe via several clicks. Currently the range of functions is quite simple but we hope to continue development with the help of your support (check our patreon page).",
         "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
+          "images/portfolio/jetlovers/1.png",
+          "images/portfolio/jetlovers/2.png",
+          "images/portfolio/jetlovers/3.png",
+          "images/portfolio/jetlovers/4.png",
+          "images/portfolio/jetlovers/5.png"
         ],
-        "url": "",
+        "appStore": "",
+        "googlePlay": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
+            "class": "devicon-react-plain",
+            "name": "React Native"
           },
           {
             "class": "devicon-javascript-plain",
             "name": "JavaScript"
           }
         ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "Sintek, LLC",
+        "title": "Senior Software Developer",
+        "years": "02.2020 - present time",
         "mainTech": [
-          "Angular 8/9/10"
+          "ASP.NET Core"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
+          "C#",
           ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "EF Core",
+          "JavaScript",
+          "PostgreSQL",
+          "React",
+          "React-native"          
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Sintek, LLC",
+        "title": "Middle Software Developer",
+        "years": "12.2012 - 02.2020",
         "mainTech": [
-          "Angular 7/8"
+          "ASP.NET Web Forms / ASP.NET Core"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
+          "C#",
+          ".NET Core",
+          "EF Core",
           "JavaScript",
-          "DHTMLX Gantt"
+          "SQL Server"          
+        ]
+      },
+      {
+        "company": "Sintek, LLC",
+        "title": "Junior Software Developer",
+        "years": "09.2010 - 12.2012",
+        "mainTech": [
+          "ASP.NET Web Forms"
+        ],
+        "technologies": [
+          "C#",
+          ".NET Framework",
+          "JavaScript",
+          "SQL Server"
         ]
       }
     ]
