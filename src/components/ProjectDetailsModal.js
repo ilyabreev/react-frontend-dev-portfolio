@@ -19,7 +19,7 @@ class ProjectDetailsModal extends Component {
               <span>
                 <div className="text-center">
                   <i className={icons.class} style={{ fontSize: "300%" }}>
-                    <p className="text-center" style={{ fontSize: "30%" }}>
+                    <p className="text-center font-trebuchet" style={{ fontSize: "40%" }}>
                       {icons.name}
                     </p>
                   </i>
@@ -93,9 +93,9 @@ class ProjectDetailsModal extends Component {
                 </a>
               ) : null}
             </h3>
-            <p className="modal-description">{description}</p>
+            <p className="modal-description font-trebuchet">{description}</p>
             <div className="col-md-12 text-center">
-              <ul className="list-inline mx-auto">{tech}</ul>
+              <ul className="list-inline mx-auto font-trebuchet">{tech}</ul>
             </div>
           </div>
         </div>
